@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="projects.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<!--<link rel="stylesheet" type="text/css" href="w3school/w3.css">-->
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.5.0-web/css/all.min.css">
+	<!--<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/font-awesome.min.css">-->
+	<link rel="stylesheet" type="text/css" href="aos-master/dist/aos.css">
+	<link rel="stylesheet" type="text/css" href="animsition-master/animsition-master/dist/css/animsition.min.css">
+	
+</head>
+<body  class="animated fadeIn">
+	<nav id="nav">
+		<label for="nav" class="burger-menu">
+				<i class="one"></i>
+				<i class="two"></i>
+				<i class="three"></i>
+			</label>
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.svg"></a>
+		</div>
+			<div class="nav-wrapper">
+				<ul>
+					<li><a href="index.html" class="animated bounce">Home</a></li>
+					<li><a href="projects.html" class="animated bounce">Projects</a></li>
+					<li><a href="contact.html" class="animated bounce">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="wrapper1">
+			<div class="col1">
+				<h1>My previous <span class="project">projects</span></h1>
+			</div>
+			<div class="col2">
+				<img src="images/stefan-stefancik-1203097-unsplash.jpg" alt="projects">
+			</div>
+			<div class="col3">
+				<h1>My experience</h1>
+				<p>My previous projects are made in php language which is dynamic sites but it is an offline. The first project that I've made before was a library system which is our capstone (thesis) that project was so  challengeable because my position in our team is front-end developer and designer but I also took the role of back-end developer in our team that's why it was so memorable.</p>
+			</div>
+			<div class="col4"><a href="#wrapper2">Explore my Projects <span class="fa fa-arrow-down"></span></a></div>
+			<div class="col5"><img src="images/blur-blurry-coffee-273222.jpg"></div>
+		</div>
+
+		<div class="wrapper2" id="wrapper2">
+			<h1 class="project-section">PROJECTS.</h1>
+			<div class="col1">
+				<h1>Offline Library System</h1>
+				<div class="line"></div>
+				<p>This website is our capstone or thesis, and the type of SDLC that we  did is Agile method for rapid development so that we can show our progress in  our client. What I did in our capstone is I'm the one who incharge in design and looks of the website that we developed. So this project is one of memorable project that I've done before because it taught me how to manage time and how to be a resourceful. In this project taught me also to be a backend developer because I also work with the database and the functionality of the website that we're developing. I actually didn't expect that I will do both role of front-end and back-end job. But I was so happy because we finished this kind of site. </p>
+			</div>
+			<div class="col2"><img src="images/librarysystem.jpg"><a href="#">See the project</a></div>
+		</div><!--wrapper2 end-->
+		<div class="wrapper3">
+			<h1 class="project-section">School website</h1>
+			<div class="col1"><img src="images/evaluationpage.jpg"><a href="#">See the project</a></div>
+			<div class="col2">
+				<h1>Evaluation Grading System</h1>
+				<p>This website is an evaluation site for  high school student, so student can easily find their grades, The purpose of this site is to help the teacher to put grades faster. The language that I used for this project is HTML, CSS, JAVASCRIPT, JS LIBRARIE, MYSQL and PHP. This project that I developed is one of my classmate's capstone so they offer me this project then I accepted it. For me it was a good experienced because this project trained me more about developing, thinking, and the way I resolve problems.</p>
+			</div>
+		</div><!--wrapper3 end-->
+		<div class="wrapper4">
+			<div class="col1">
+				<img src="images/cctvpage.jpg"><a href="#">See the project</a>
+			</div>
+			<div class="col2">
+				<h1 class="cctv">CCTV</h1>
+				<h1>CCTV website</h1>
+				<p>This project was my first website that I put online. This site was all about a cctv products, so the main focus of this site is to help the clients to reach out my cousin to settle cctv installation. And to help my cousin to introduce his business online, and show that he offer. The main color that I used is light blue, because it shows securness and cleanliness.</p>
+			</div>
+		</div><!--wrapper4 end-->
+		<div class="wrapper5">
+			<div class="col1">
+				<img src="images/church website.jpg"><a href="#">See the project</a>
+			</div>
+			<div class="col2">
+				<h1 class="ncc">NCC</h1>
+				<h1>Fictional Website</h1>
+				<p>This website is fictional, I created this web to practice my skill and to explore the other part of the web. Like the server side because I also like to see how the server side works and how the user can interact with it.</p>
+			</div>
+		</div><!--wrapper5 end-->
+
+		<footer id="footer">
+		<p>Follow me on
+		<br>
+		 <a href="https://web.facebook.com/Princejay1030"><img src="fontawesome-free-5.5.0-web\svgs\brands\facebook.svg"></a>
+		 <a href="https://www.instagram.com/princejayvin03/"></a><img src="fontawesome-free-5.5.0-web\svgs\brands\instagram.svg">
+		 <a href="https://gist.github.com/Princejay1030"><img src="fontawesome-free-5.5.0-web\svgs\brands\github.svg"></a>
+		 </p>
+	</footer>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script>
+		
+
+	const BtnNav = document.querySelector('.burger-menu');
+	const NavContent = document.querySelector('.nav-wrapper');
+
+	BtnNav.addEventListener('click' ,function(){
+	NavContent.classList.toggle('this');
+	return false;
+	});
+
+
+	BtnNav.addEventListener('click' ,function(){
+	NavContent.classList.toggle('nav-wrapper');
+	return false;
+	});
+		
+	
+
+	</script>
+</body>
+</html>
