@@ -76,7 +76,25 @@ nav  ul li a:hover{
 
 .wrapper1 .col1 .bg{
 	width: 800px;
+	animation:  bg 1000ms ;
+	animation-duration:8s;
 }
+
+@keyframes bg {
+	10%{
+		position: relative;
+		left:1000px;
+	}
+	100%{
+		position: relative;
+		left:0px;
+	}
+	30%{
+		position: relative;
+		left:100px;
+	}
+}
+
 
 .wrapper1 .col1 .arrow{
 	width: 30px;
@@ -115,6 +133,23 @@ nav  ul li a:hover{
 	font-size: 90px;
 	font-family: helvetica;
 	text-align: left;
+	animation:  title 1000ms ;
+	animation-duration:10s;
+}
+
+@keyframes  title{
+	0%{
+		position: relative;
+		top: 100px;
+	}
+	50%{
+		position: relative;
+		top: 0px;
+	}
+	100%{
+		position: relative;
+		top: 10px;
+	}
 }
 
 .d{
@@ -124,6 +159,26 @@ nav  ul li a:hover{
 .wrapper1 .col2 p{
 	font-family: helvetica;
 	color: #2A2929;
+	width: 60%;
+	position: relative;
+	left: 100px;
+	animation:  info 1000ms ;
+	animation-duration:20s;
+}
+
+@keyframes  info{
+	0%{
+		position: relative;
+		left: 1000px;
+	}
+	50%{
+		position: relative;
+		left: 0px;
+	}
+	100%{
+		position: relative;
+		left: 10px;
+	}
 }
 
 .wrapper1 .col2 .one{
@@ -251,9 +306,9 @@ nav  ul li a:hover{
 .wrapper2 .col1 .btn-resume{
 	border:none;
 	padding:10px;
-	border-radius: 5px;
+	border-radius: 0px;
 	color: #FFFFFF;
-	background-color: #07A2F3;
+	background-color: #00b356;
 	position: relative;
 	left: 390px;
 	top: -30px;
@@ -263,7 +318,7 @@ nav  ul li a:hover{
 }
 
 .wrapper2 .col1 .btn-resume:hover{
-	padding: 15px;
+	transform:scale(1.5, 1.5);
 }
 
 .wrapper2 .col1 a{
@@ -661,6 +716,7 @@ footer{
 .wrapper1 .col1{
 	grid-column: 1;
 	grid-row: 1;
+	margin-top: -20%;
 }
 
 .wrapper1 .col1 .bg{
@@ -1162,7 +1218,7 @@ nav .logo{
 	padding: 10px;
 	margin-left: 16px;
 	margin-top: 2px;
-	z-index: 100;
+	z-index: 1000;
 }
 
 .logo{
@@ -1191,6 +1247,7 @@ footer{
 	display:inline-block;
 	width: 40px;
 	height: 40px;
+	cursor: pointer;
 }
 
 
@@ -1735,6 +1792,7 @@ footer{
  	width:100%; 
  	height:100px; 
  	background-color:#ECEBEB;
+ 	cursor: pointer;
  }
 
 
