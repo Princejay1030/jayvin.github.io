@@ -52,19 +52,19 @@
 	</div>
 
 	<div class="wrapper2" id="wrapper2">
-		<div class="col1"><h1>ABOUT <span class="do">ME</span></h1>
+		<div class="col1"><h1 data-aos="slide-up">ABOUT <span class="do">ME</span></h1>
 		<p>I'm graduating student this coming May 30 I live in Quezon City and what I do now is digging the world of Web development industry which I enjoyed. I.T world open my eyes into creative world of designing which is very fun and excited. Everyday another is a new and fresh start of designing new things on web. Designing for is all about problem solving on how I will excecute the design, how to user can interact with, and their experience into the web design that they interact with. I also like playing piano music and web design is my world. </p>
 		<a href="resume.pdf">
-			<button type="button" class="btn-resume">My Resume</button>
+			<button type="button" class="btn-resume" data-aos="slide-left">My Resume</button>
 		</a>
 		<a href="#wrapper3"><span class="skill">-MY SKILLS-</span></a>
 		</div>
-		<div class="col2"><img src="images/49807995_1535551239914453_1705588571882127360_n.jpg" class="me"></div>
+		<div class="col2"><img src="images/49807995_1535551239914453_1705588571882127360_n.jpg" class="me" data-aos="slide-right" class="aos-item__inner"></div>
 	</div>
 
 	<div class="wrapper3" id="wrapper3">
 		<div class="col1">
-			<img src="images/oli-dale-139169-unsplash.jpg" class="skillbg">
+			<img src="images/oli-dale-139169-unsplash.jpg" class="skillbg" data-aos="slide-right" class="aos-item__inner">
 			<a href="#working-process"><img src="fontawesome-free-5.5.0-web\svgs\solid\arrow-down.svg" class="arrow"></a>
 		</div>
 		<div class="col2">
@@ -81,19 +81,19 @@
 		</div>
 	</div>
 	
-	<h1 class="working-process" id="working-process">How I <span class="work">work..</span></h1>
+	<h1 class="working-process" id="working-process" data-aos="flip-up" class="aos-item__inner">How I <span class="work">work..</span></h1>
 	<div class="wrapper4" id="wrapper4">
-		<div class="col1">
+		<div class="col1" data-aos="slide-down" class="aos-item__inner">
 			<img src="images/planning.svg">
 			<h1>Plan</h1>
 			<p>So before I creat a site I always plan first,  Planning is very important part in developing a  site which you want to build. What I do in planning phase is researching what content I  will put in the  site and what color palette should I use to be able to enhance the beauty of website.  </p>
 		</div>
-		<div class="col2">
+		<div class="col2" data-aos="slide-up" class="aos-item__inner">
 			<img src="images/creativity.svg">
 			<h1>Design</h1>
 			<p>In this phase what I do is I make a prototype in adobe illustrator or photoshop or in paper to visualize the user interface of  the website so that it  will be easy for me to translate it into code. In this phase I do some analyzing into the feel and  look of  the site.</p>
 		</div>
-		<div class="col3">
+		<div class="col3" data-aos="slide-down" class="aos-item__inner">
 			<img src="images/coding.svg">
 			<h1>Code</h1>
 			<p>The best part is translating the design into code. In this final phase I always faced logical  and problem solving because designing is not always about how you will make it beautiful, it also have some logic and problem solving to be complete.</p>
@@ -111,6 +111,7 @@
 		 <a href="https://gist.github.com/Princejay1030"><img src="fontawesome-free-5.5.0-web\svgs\brands\github.svg"></a>
 		 </p>
 	</footer>
+	<script src="aos-master/dist/aos.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script>
 		
@@ -130,6 +131,10 @@
 	});
 		
 	
+      AOS.init({
+        duration : 1200,
+      });
+    
 
 	</script>
 </body>
