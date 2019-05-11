@@ -77,6 +77,20 @@ nav  ul li a:hover{
 	width: 100%;
 	background-color: none;
 	box-sizing: border-box;
+	animation:  sideright ;
+	position: relative;
+	animation-duration:4s;
+}
+
+@keyframes sideright {
+	0%{
+		position: relative;
+		left:-10000px;
+	}
+	50%{
+		position: relative;
+		left:0px;
+	}
 }
 
 .wrapper1 .col1 form{
@@ -99,6 +113,20 @@ nav  ul li a:hover{
 }
 
 .wrapper1 .col1 input[type='text']:focus{
+	width: 80%;
+}
+
+.wrapper1 .col1 input[type='email']{
+	border: 1px solid  #024781;
+	padding: 20px;
+	width: 75%;
+	border-radius: 5px;
+	font-size: 15px;
+	transition:1000ms ease;
+	font-family: helvetica;
+}
+
+.wrapper1 .col1 input[type='email']:focus{
 	width: 80%;
 }
 
@@ -155,6 +183,21 @@ nav  ul li a:hover{
 	box-sizing: border-box;
 	background-color:#0891D8;
 	z-index: -1;
+	animation:  sideleft ;
+	position: relative;
+	animation-duration:5s;
+}
+
+@keyframes sideleft {
+	0%{
+		position: relative;
+		left:10000px;
+	}
+	50%{
+		position: relative;
+		left:0px;
+	}
+	
 }
 
 .wrapper1 .col2 img{
@@ -476,6 +519,20 @@ footer{
 }
 
 .wrapper1 .col1 input[type='text']:focus{
+	width: 80%;
+}
+
+.wrapper1 .col1 input[type='email']{
+	border: 1px solid  #024781;
+	padding: 8px;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 15px;
+	transition:1000ms ease;
+	font-family: helvetica;
+}
+
+.wrapper1 .col1 input[type='email']:focus{
 	width: 80%;
 }
 
