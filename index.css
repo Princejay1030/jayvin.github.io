@@ -357,14 +357,16 @@ nav  ul li a:hover{
 .wrapper3 .col1{
 	grid-column: 1/ span 2;
 	grid-row: 1/span 5;
+	z-index: 1;
 }
 
 .wrapper3  .col1 .arrow{
-	width: 40px;
+	width: 60px;
 	position: relative;
 	top: -30px;
 	padding:8px;
-	border-radius: 5px;
+	box-sizing: border-box;
+	border-radius: 0px;
 	background-color:#07B0F6;
 	cursor: pointer;
 	margin-left: 5px;
@@ -380,6 +382,7 @@ nav  ul li a:hover{
 	font-family: helvetica;
 	font-weight: bold;
 	text-align: center;
+	z-index: 100;
 }
 
 .wrapper3  .col2 .one{
@@ -1402,6 +1405,7 @@ footer{
 .wrapper3 .col2{
 	grid-row:1;
 	grid-column: 1;
+	z-index: 100;
 	font-size: 20px;
 	font-family: helvetica;
 	text-align: center;
