@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="animsition-master/animsition-master/dist/css/animsition.min.css">
 </head>
 <body  class="animated fadeIn">
+	<!--navigation bar-->
 	<nav id="nav">
 		<label for="nav" class="burger-menu">
 				<i class="one"></i>
@@ -31,7 +32,7 @@
 				</ul>
 			</div>
 		</nav>
-
+	<!--content-->
 		<div class="wrapper1">
 			<div class="col1">
 				<h1>Let's talk...</h1>
@@ -48,17 +49,17 @@
 					<button type="submit"> <span class="fa fa-paper-plane"></span> Send</button>
 				</form>
 			</div>
-			<div class="col2">
-				<div class="background">
-				<h2>Contact Information</h2>
+		<div class="col2">
+			<div class="background">
+			<h2>Contact Information</h2>
 				<p class="address"><img src="images/map.svg">  #30 Block 2 Pook Palaris UP Diliman Q.C</p>
 				<p class="contact"><img src="images/smartphone.svg">  09752321517</p>
 				<p class="email"><img src="images/closed-envelope-circle.svg">  jayvincarlismael@gmail.com</p>
 			</div>
-			</div>
 		</div>
-
-		<footer id="footer">
+	</div>
+<!--footer-->
+	<footer id="footer">
 		<p>Follow me on
 		<br>
 		 <a href="https://web.facebook.com/Princejay1030"><img src="fontawesome-free-5.5.0-web\svgs\brands\facebook.svg"></a>
@@ -69,7 +70,6 @@
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script>
 		
-
 	const BtnNav = document.querySelector('.burger-menu');
 	const NavContent = document.querySelector('.nav-wrapper');
 
@@ -78,14 +78,11 @@
 	return false;
 	});
 
-
 	BtnNav.addEventListener('click' ,function(){
 	NavContent.classList.toggle('nav-wrapper');
 	return false;
 	});
 		
-	
-
 	</script>
 </body>
 </html>
