@@ -48,7 +48,7 @@ nav ul  li a{
 	letter-spacing: 5px;
 	font-size: 15px;
 	font-family:'Roboto', sans-serif;
-	font-weight: bold;
+	font-weight: lighter;
 	color: #2C2B2B;
 	transition: 1000ms;
 	margin-right: 40px;
@@ -59,8 +59,6 @@ nav  ul li a:hover{
 	padding: 10px;
 	background-color: #07A2F3;
 }
-
-
 
 .wrapper1{
 	display: grid;
